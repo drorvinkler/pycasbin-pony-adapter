@@ -1,4 +1,8 @@
 # Pony ORM Adapter for PyCasbin
+[![Build Status](https://travis-ci.com/drorvinkler/pycasbin-pony-adapter.svg?branch=main)](https://travis-ci.com/drorvinkler/pycasbin-pony-adapter)
+[![codecov](https://codecov.io/gh/drorvinkler/pycasbin-pony-adapter/branch/main/graph/badge.svg)](https://codecov.io/gh/drorvinkler/pycasbin-pony-adapter)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 SQLAlchemy Adapter is the [Pony ORM](https://www.ponyorm.org) adapter for [PyCasbin](https://github.com/casbin/pycasbin). With this library, Casbin can load a policy from Pony ORM supported databases or save a policy to it.
 
 Based on [Officially Supported Databases](http://www.ponyorm.org/), The current supported databases are:
