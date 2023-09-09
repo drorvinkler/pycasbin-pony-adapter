@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="casbin_pony_adapter",
-    version="1.0.0",
+    version="1.0.1",
     author="Dror A. Vinkler",
     description="Pony ORM Adapter for PyCasbin",
     long_description=long_description,

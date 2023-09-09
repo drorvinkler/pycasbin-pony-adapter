@@ -85,8 +85,8 @@ class Adapter(FilteredAdapter):
         r = delete(cr for cr in self.rule_cls
                    if cr.ptype == ptype and
                    cr.v0 == v(0) and cr.v1 == v(1) and
-                   cr.v0 == v(2) and cr.v1 == v(3) and
-                   cr.v0 == v(4) and cr.v1 == v(5)
+                   cr.v2 == v(2) and cr.v3 == v(3) and
+                   cr.v4 == v(4) and cr.v5 == v(5)
                    )
         return r > 0
 
